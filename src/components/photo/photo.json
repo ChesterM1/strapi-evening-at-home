@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_photo_photos",
+  "info": {
+    "displayName": "Photo"
+  },
+  "options": {},
+  "attributes": {
+    "WhitePhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "BlackPhoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

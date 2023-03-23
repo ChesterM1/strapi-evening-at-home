@@ -12,50 +12,47 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "titleUA": {
+    "Title_UA": {
       "type": "string"
     },
-    "titleEN": {
+    "Title_EN": {
       "type": "string"
     },
-    "DescriptionUA": {
+    "Old_price": {
       "type": "string"
     },
-    "DescriptionEN": {
+    "New_price": {
       "type": "string"
     },
-    "CheckEN": {
-      "type": "string"
+    "Article_product": {
+      "type": "string",
+      "required": true
     },
-    "CheckUA": {
-      "type": "string"
+    "Description_product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "discription-line.description-block",
+      "required": true
     },
-    "Photos": {
+    "Sizes_product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sizes.sizes",
+      "required": true
+    },
+    "Title_photo": {
       "type": "media",
-      "multiple": true,
+      "multiple": false,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "price": {
-      "type": "string"
-    },
-    "unrealPrice": {
-      "type": "string"
-    },
-    "DescriptionItemsUA": {
-      "type": "enumeration",
-      "enum": [
-        "value1",
-        "value2",
-        "value3",
-        "value4",
-        "value5"
-      ]
+    "Photo_product": {
+      "type": "component",
+      "repeatable": false,
+      "component": "photo.photo",
+      "required": true
     }
   }
 }

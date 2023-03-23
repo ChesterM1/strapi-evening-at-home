@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_xs_sizes",
+  "info": {
+    "displayName": "Sizes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "S": {
+      "type": "enumeration",
+      "enum": [
+        "S"
+      ]
+    },
+    "M": {
+      "type": "enumeration",
+      "enum": [
+        "M"
+      ]
+    },
+    "L": {
+      "type": "enumeration",
+      "enum": [
+        "L"
+      ]
+    },
+    "XL": {
+      "type": "enumeration",
+      "enum": [
+        "XL"
+      ]
+    }
+  }
+}

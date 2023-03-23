@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_discription_line_discription_lines",
+  "info": {
+    "displayName": "DiscriptionLine",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description_UA": {
+      "type": "string",
+      "required": false
+    },
+    "Description_EN": {
+      "type": "string",
+      "required": false
+    }
+  }
+}
